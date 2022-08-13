@@ -1,3 +1,7 @@
+'''
+Author: endlessutopia7 2022.08.07
+'''
+
 # Decide if a go piece is alive
 
 # Actually similar to the island problem, except adding terminating
