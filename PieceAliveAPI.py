@@ -12,6 +12,9 @@ OPPONENT_MAP = {"X": "O", "O": "X"}
 # "X" as black, "O" as white, "." as empty, otherwise invalid
 def isPieceAlive(board, i, j, eat = False):
     __validateBoard(board)
+  
+    if board[i][j] == ".":
+      return
     __validatePiece(board[i][j])
     
     visitedNodes = set()
