@@ -31,7 +31,6 @@ def isPieceAlive(board, i, j, eat = False):
         if currentPiece in visitedNodes:
             continue
         
-        print(currentPiece)
         current_i, current_j = currentPiece[0], currentPiece[1]
         visitedNodes.add((currentPiece[0], currentPiece[1]))
         if current_i - 1 >= 0:
